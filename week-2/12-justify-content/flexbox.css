@@ -9,7 +9,7 @@
 /* Add your own CSS code below */
 
 .countries--first {
-  justify-content: space-between;
+  justify-content: end;
 }
 
 .countries--second {
@@ -18,11 +18,10 @@
 }
 
 .countries--third {
-  flex-direction: column-reverse;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: end;
 }
 .countries--fourth {
-  flex-direction: row;
+  flex-direction: column-reverse;
   justify-content: space-between;
 }
-
