@@ -1,0 +1,28 @@
+.countries {
+  display: flex;
+}
+
+.countries--second .country {
+  padding: 0.5em;
+}
+
+/* Add your own CSS code below */
+
+.countries--first {
+  justify-content: space-between;
+}
+
+.countries--second {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.countries--third {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+.countries--fourth {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
