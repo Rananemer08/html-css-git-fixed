@@ -31,7 +31,7 @@ git checkout -b purple_links
 ```
 
 Now edit the `style.css` file and change the colour of the links in your messages to `fuchsia`. Check to see if the links have changed to a purple colour. If they have, then add and commit your changes.
-
+o
 Before you can show your boss the purple colour, she calls you into her office. Customers of your messaging service are complaining about the orange links. Some say it is too bright and hard to read. She wants you to put aside your work on the purple links and set the links back to the original colour (`#4491db`) in the `master` branch immediately.
 
 Make sure you are on the `master` branch:
