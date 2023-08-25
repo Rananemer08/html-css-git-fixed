@@ -1,1 +1,12 @@
 /* Add your CSS code below */
+#first-message {
+  background-color: red;
+}
+
+.message__content {
+  background-color: cadetblue;
+}
+
+.message--latest .message__content {
+  background-color: yellow;
+}

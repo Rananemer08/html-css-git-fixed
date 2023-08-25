@@ -1,1 +1,20 @@
 /* Add your CSS code below */
+
+.message__content {
+  padding: 10px;
+  padding-inline: 0;
+}
+
+.message__content a {
+  color: red;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.message--unread .message__content {
+  border-right: 2px solid blue;
+}
+
+.message:first-of-type .message__content {
+  opacity: 0.8;
+}
